@@ -1,0 +1,54 @@
+.header--nav__logo{
+    width: 9%;
+}
+    .header--nav__logo img{
+        width: 98%;
+    }
+
+.header--nav__opciones{
+    width: 70%;
+}
+    .header--nav__opciones, li, a{
+        display: inline-flex;
+        text-decoration: none;
+        margin-right: 7px;
+        color: black;
+    }
+    .header--nav__opciones__span a{
+        color: black;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-weight: bold ;
+    }
+
+.header--nav__login{
+    width: 9%;
+}
+
+.header--nav__logo, .header--nav__opciones, .header--nav__login{
+    display: inline-flex;
+}
+
+.header--bloque img{
+    width: 100%;
+    height: 250px;
+}
+    .header--bloque__parrafo1{
+        margin-top: -4.4em;
+    }
+    .header--bloque__parrafo2{
+        margin-top: -1.2em;
+    }
+    .header--bloque__parrafo1{
+        margin-left: 2em;
+        font-size: 2.6em;
+        color:white;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+    }
+    .header--bloque__parrafo2{
+        margin-left: 3.5em;
+        font-size: 1.5em;
+        color:white;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+    }
