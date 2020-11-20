@@ -1,5 +1,6 @@
 .header--nav__logo{
     width: 9%;
+    margin-left: 2em;
 }
     .header--nav__logo img{
         width: 98%;
@@ -8,11 +9,16 @@
 .header--nav__opciones{
     width: 70%;
 }
+.header--nav__opciones a:hover, a:focus{
+    background-size: 100% 2px;
+    border-bottom: 2px solid black;
+}
     .header--nav__opciones, li, a{
         display: inline-flex;
         text-decoration: none;
         margin-right: 7px;
         color: black;
+        font-family: 'Arial Narrow Bold', sans-serif;
     }
     .header--nav__opciones__span a{
         color: black;
@@ -20,9 +26,46 @@
         font-weight: bold ;
     }
 
+____________________
+
+
+.header--nav__opciones li a {
+
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    
+}
+
+.header--nav__opciones li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.header--nav__opciones li:hover > ul {
+    display:block;
+    width: 8%;
+    margin-top: 20px;
+}
+
+.header--nav__opciones li ul li {
+    position:relative;
+    
+}
+
+_________________
+
 .header--nav__login{
     width: 9%;
 }
+    .header--nav__login a{
+        background-color: #0078d4;
+        color: white;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        padding: 8px 17px;
+        border-radius: 40%;
+    }
 
 .header--nav__logo, .header--nav__opciones, .header--nav__login{
     display: inline-flex;
