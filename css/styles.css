@@ -74,3 +74,32 @@ body {
   display: flex;
   align-items: center;
 }
+.container--article__footer{
+  display: flex;
+}
+hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.container--article__footer a{
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.container--article__footer a:hover{
+  text-decoration: underline;
+}
+
+.container--article__footer img{
+  margin: 5px;
+  width: 16px;
+  height: 16px;
+}
+.container--article__footer span{
+  border-left: 2px solid #E5E5E5;
+  padding-right: 18px;
+  margin-left: 18px;
+}
