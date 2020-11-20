@@ -47,13 +47,13 @@ ____________________
     display:block;
     width: 8%;
     margin-top: 20px;
+    
 }
 
 .header--nav__opciones li ul li {
     position:relative;
-    
+    margin-top: 10px;
 }
-
 _________________
 
 .header--nav__login{
