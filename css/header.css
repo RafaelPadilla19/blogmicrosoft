@@ -20,7 +20,9 @@
 a:focus {
   background-size: 100% 2px;
   border-bottom: 2px solid black;
+
 }
+
 .header--nav__opciones,
 li,
 a {
@@ -39,6 +41,13 @@ a {
   font-weight: 600;
 
 }
+.header--nav__opciones ul li ul li{
+ background-color: white;
+ width: 150px;
+ margin-top: -5px;
+}
+
+
 /* ----------------------------------------------- */
 .header--nav__opciones li a {
   text-decoration: none;
@@ -55,7 +64,7 @@ a {
 .header--nav__opciones li:hover > ul {
   display: block;
   width: 8%;
-  margin-top: 20px;
+  margin-top: 42px;
 }
 
 .header--nav__opciones li ul li {
