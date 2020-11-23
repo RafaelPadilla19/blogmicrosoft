@@ -1,0 +1,231 @@
+.container--card{
+    display: flex;
+    justify-content: center;
+}
+.container--card__content{
+    padding: 30px 0;
+    width: 85%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: center;     
+}
+
+.card--content{
+    height: 87%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+.card--content p a{
+    text-decoration: none;
+    color: black;
+    
+}
+.card--content p a:hover{    
+    text-decoration: underline;
+}
+.card--paragraph{
+    display: block;
+    line-height: 30px;
+    
+
+}
+
+.card--body{
+    height: 393px;    
+    background-color: white;
+    width: 28%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+
+    padding-left: 26px;
+    padding-top: 24px;
+    padding-right: 17px;
+    margin-bottom: 24px;
+}
+
+.card-title{
+    color: #222;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 5px 0;
+}
+
+
+.footer__enlaces{
+    background: #f2f2f2;
+    margin-top: 48px;
+    font-size: 12px;
+    font-size: 12px;
+    text-decoration: none;   
+}
+
+
+.titulo__Redes{
+
+    font-size: 30px;
+    
+}
+
+.contenedor__Redes--informacion{
+    
+    font-size: 30px;
+    padding: 10;
+    margin-top: 20px;
+    box-sizing: border-box;
+
+    color: #666;
+    padding-left: 12px;    
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+
+.contenedor__Redes--informacion :hover{
+    transform: scale(1.3);
+    transition: 500ms;
+    color: black;
+    
+}
+
+
+
+.footer__lista--secciones{
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link--idioma {
+    display: flex;
+    
+    display: table;
+    float: left;
+
+}
+
+.footer__lista--Final {
+    display: flex;
+    align-content: space-between
+    
+}
+.footer__RedesSociales{
+    text-align: center;
+
+    
+}
+
+.footer__encabezado--secciones {
+    font-size: 16px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    padding: 36px 0 4px;
+    font-weight: 700;
+}
+
+.footer__enlaces {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+.footer--grupo {
+    display: block;
+    float: left;
+    min-height: 1px;
+    text-align: top;
+    width: 15.3%;
+    zoom: 1;  
+}
+
+.footer--grupo {
+    margin: 0 auto;
+    
+    padding: 0;
+    
+}
+
+.footer__lista--secciones {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 19px;
+    padding-right: 0;
+    margin: 8px 0;
+    list-style-position: outside;
+}
+
+.footer--grupo .footer__encabezado--secciones, a.footer--enlaces {
+    color: #616161;
+    word-break: break-word;
+}
+
+.footer__enlaces{
+    text-decoration: none;
+
+}
+
+.footer__enlaces {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+
+.footer__encabezado--secciones{
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    color: #616161;
+}
+
+.footer__informacion--final a {
+    display: inline-block;
+    text-decoration: none;
+    color: #616161;
+    font-size: 1em;
+    font-size: 12px;
+  }
+
+
+  .footer__informacion--final{
+    margin: 0 auto;
+    
+    padding: 30px 24px 16px;
+    font-size: 11px;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 24px;
+    color: #616161;
+    
+    white-space: nowrap;
+  }
+
+
+  .footer--DerechosDeAutor{
+    font-size: 12px;
+    color: #666;
+  }
+
+  nav{
+    display: block;
+  }
+  .footer__informacion--final li {
+    display: inline-block;
+    padding: 0.5em;
+  }
+  .footer__grupo--1{
+    display: flex;
+    align-items: center;
+  }
