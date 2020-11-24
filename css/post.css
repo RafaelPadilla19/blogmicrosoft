@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Segoe UI, "Segoe UI Web Regular", "Segoe UI Regular WestEuropean",
+    "Segoe UI", Tahoma, Arial, Roboto, "Helvetica Neue", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #f4f4f4;
+}
+
+.container {
+  padding: 60px 0;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2px;
+  padding-left: 13%;
+  padding-right: 13%;
+  border-radius: 4px 4px 0 0;
+  margin: 30px 175px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.container--post {
+  margin-bottom: 2px;
+  border-radius: 4px 4px 0 0;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title--header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.title--topic {
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+}
+
+.container--post img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.container--post__name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.container--post__date {
+  text-align: center;
+  font-size: 14px;
+  color: #616161;
+  margin-bottom: 15px;
+}
+.code {
+  width: 100%;
+  display: flex;
+}
+.container--post pre {
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0 !important;
+  text-align: center;
+
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+hr {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 2rem;
+  border: 1;
+  border-top: 1px solid rgba(0, 0, 0, 0.459);
+}
+.hr--final{
+    width: 154%;
+    margin-top: 60px;
+    margin-bottom: 2rem;
+    border: 1;
+    border-top: 1px solid rgba(0, 0, 0,0.01);
+}
+.author--avatar {
+  float: left;
+  margin-right: 20px;
+}
+.author--avatar img {
+  border-radius: 100%;
+  max-width: 100%;
+  height: 95px;
+  width: 95px;
+}
+.container--post__author {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.social-links h5 a{
+    font-size: 1.25rem;
+    color: #005da6;
+    text-decoration: underline;
+    margin-bottom: .5rem;
+  }
+  .social-links div {
+   margin-bottom: 10px;
+  }
+  .social-links div p a{
+      margin-left: 10px;
+    color:rgba(51, 51, 51, 0.856);
+    text-decoration: none;
+   }
+.social-bar {
+  position: fixed;
+  top: 35%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: white;
+}
+.social-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+  color: #3c3c3c;
+  font-size: 17px;
+}
+
+.social-bar a:hover {
+  background-color: #fff;
+  color: #999;
+}
+
